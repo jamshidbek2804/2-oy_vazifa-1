@@ -179,9 +179,12 @@ main {
 .main-card {
   width: 350px;
   height: 382px;
-  background: #0e8784;
+  background-color: #0e8784;
   border-radius: 8px;
   /* text-align: center; */
+}
+.main-card:hover {
+  background-color: #83888f;
 }
 .main-card-img {
   padding-top: 72px;
