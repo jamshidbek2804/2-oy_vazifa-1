@@ -1,0 +1,338 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Barlow", sans-serif;
+  font-family: "Fraunces 9pt", serif;
+}
+header {
+  width: 100%;
+}
+.container {
+  width: 1280px;
+  margin: 45px auto;
+}
+.header {
+  width: 1280px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-logo {
+  width: 236px;
+  height: 26px;
+}
+.header-navbar {
+  list-style-type: none;
+}
+.header-nav-list {
+  display: inline-block;
+}
+.header-nav-item {
+  text-decoration: none;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888f;
+}
+.header-nav-item:hover {
+  color: rgba(51, 61, 75, 1);
+  font-size: 13.5px;
+}
+.header-nav-item-2 {
+  margin: 0 33px;
+}
+.hero-bg {
+  background-image: url(../assests/img/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 1280px;
+  height: 600px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 2px #000000;
+}
+.hero-info {
+  max-width: 405px;
+  margin-left: 80px;
+  padding-top: 100px;
+}
+.hero-title {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #fefcf7;
+}
+.hero-paragraf {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  margin-top: 32px;
+  margin-bottom: 56px;
+}
+.hero-item {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #fefcf7;
+  text-decoration: none;
+  padding: 16px 31px;
+  background: #66d2cf;
+  border-radius: 6px;
+}
+.hero-item:hover {
+  color: rgb(225, 0, 255);
+  background-color: greenyellow;
+}
+.section-container {
+  width: 1111px;
+  margin: 100px auto;
+}
+.section-bg {
+  background-image: url(../assests/img/section-bg-text.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.section-title {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #333d4b;
+  margin-top: 72px;
+  margin-bottom: 24px;
+}
+.section-paragraf {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #333d4b;
+}
+.section-cards {
+  padding-top: 135px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-card {
+  max-width: 250px;
+}
+main {
+  margin: 200px auto;
+}
+.main-bg {
+  height: 550px;
+  background-color: rgba(44, 52, 62, 1);
+  border-radius: 10px;
+}
+.main-card-container {
+  margin: 0 50px;
+}
+.main-title {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #fefcf7;
+  padding-top: 100px;
+}
+.main-paragraf {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #fefcf7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  max-width: 540px;
+  margin-top: 32px;
+  margin-bottom: 86px;
+  margin-left: 359px;
+}
+.main-cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+.main-card {
+  width: 350px;
+  height: 382px;
+  background: #0e8784;
+  border-radius: 8px;
+  /* text-align: center; */
+}
+.main-card-img {
+  padding-top: 72px;
+  padding-left: 136px;
+}
+.main-card-title {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #fefcf7;
+  margin-top: 56px;
+  margin-bottom: 24px;
+}
+.main-card-img-3 {
+  padding-top: 83px;
+}
+.main-card-title-3 {
+  margin-top: 67px;
+}
+.main-card-paragraf {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #fefcf7;
+  margin-left: 47px;
+  margin-right: 48px;
+}
+.section-2 {
+  padding-top: 200px;
+}
+.section-2-container {
+  width: 1045px;
+  margin: 0 auto;
+}
+.section-2-title {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 80px;
+  color: #83888f;
+}
+.circle {
+  position: absolute;
+  width: 31px;
+  height: 31px;
+  background-color: #fefcf7;
+  border: 2px solid #0e8784;
+  border-radius: 50%;
+}
+.circle-2 {
+  margin: 0 349px;
+}
+.circle-3 {
+  margin-left: 744.5px;
+}
+.line {
+  position: absolute;
+  width: 760px;
+  height: 1px;
+  border: 2px solid #fdd6ba;
+  background-color: rgba(253, 214, 186, 1);
+  margin-left: 15.5px;
+}
+.section-circle {
+  position: relative;
+  width: 791px;
+  margin-bottom: 67px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-2-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 64px;
+}
+.section-2-card-2 {
+  margin: 0 95px;
+}
+.section-2-card-number {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #fdd6ba;
+}
+.section-2-card-title {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333d4b;
+  margin-top: 38px;
+  margin-bottom: 42px;
+  max-width: 255px;
+}
+.section-2-card-title {
+  max-width: 200px;
+}
+.section-2-card-paragraf {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  max-width: 285px;
+  color: #333d4b;
+}
+footer {
+  margin-top: 200px;
+  margin-bottom: 88px;
+}
+.footer-container {
+  width: 1280px;
+  margin: 0 auto;
+}
+.footer {
+  padding: 47px 85px;
+  background-color: #2c343e;
+}
+.footer-nav-list-item-2 {
+  margin: 0 33px;
+}
+.footer-start {
+  width: 622px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+svg:hover path {
+  fill: rgba(253, 214, 186, 1);
+}
+svg {
+  margin: 0 12px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-nav-list-item:hover {
+  color: rgba(254, 252, 247, 1);
+}
