@@ -42,7 +42,6 @@ header {
 }
 .header-nav-item:hover {
   color: rgba(51, 61, 75, 1);
-  font-size: 13.5px;
 }
 .header-nav-item-2 {
   margin: 0 33px;
@@ -95,8 +94,8 @@ header {
   border-radius: 6px;
 }
 .hero-item:hover {
-  color: rgb(225, 0, 255);
-  background-color: greenyellow;
+  color: rgba(102, 210, 207, 1);
+  background-color: rgba(168, 16, 206, 0.9);
 }
 .section-container {
   width: 1111px;
@@ -338,4 +337,7 @@ svg {
 }
 .footer-nav-list-item:hover {
   color: rgba(254, 252, 247, 1);
+}
+.footer-anchor {
+  text-decoration: none;
 }
