@@ -4,7 +4,7 @@
 }
 body {
   font-family: "Barlow", sans-serif;
-  font-family: "Fraunces 9pt", serif;
+  font-family: "Fraunces", serif;
 }
 header {
   width: 100%;
@@ -47,7 +47,7 @@ header {
   margin: 0 33px;
 }
 .hero-bg {
-  background-image: url(../assests/img/hero-bg.jpg);
+  background-image: url(../img/hero-bg.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   width: 1280px;
@@ -56,12 +56,12 @@ header {
   box-shadow: 0px 1px 2px #000000;
 }
 .hero-info {
-  max-width: 405px;
+  max-width: 470px;
   margin-left: 80px;
   padding-top: 100px;
 }
 .hero-title {
-  font-family: "Fraunces 9pt";
+  font-family: "Fraunces", serif;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
@@ -81,7 +81,7 @@ header {
   margin-bottom: 56px;
 }
 .hero-item {
-  font-family: "Fraunces 9pt";
+  font-family: "Fraunces", serif;
   font-style: normal;
   font-weight: 900;
   font-size: 18px;
@@ -102,12 +102,12 @@ header {
   margin: 100px auto;
 }
 .section-bg {
-  background-image: url(../assests/img/section-bg-text.png);
+  background-image: url(../img/section-bg-text.png);
   background-repeat: no-repeat;
   background-size: contain;
 }
 .section-title {
-  font-family: "Fraunces 9pt";
+  font-family: "Fraunces", serif;
   font-style: normal;
   font-weight: 900;
   font-size: 24px;
@@ -147,7 +147,7 @@ main {
   margin: 0 50px;
 }
 .main-title {
-  font-family: "Fraunces 9pt";
+  font-family: "Fraunces", serif;
   font-style: normal;
   font-weight: 900;
   font-size: 40px;
@@ -180,7 +180,6 @@ main {
   height: 382px;
   background-color: #0e8784;
   border-radius: 8px;
-  /* text-align: center; */
 }
 .main-card:hover {
   background-color: #83888f;
@@ -190,7 +189,7 @@ main {
   padding-left: 136px;
 }
 .main-card-title {
-  font-family: "Fraunces 9pt";
+  font-family: "Fraunces", serif;
   font-style: normal;
   font-weight: 900;
   font-size: 24px;
@@ -225,7 +224,7 @@ main {
   margin: 0 auto;
 }
 .section-2-title {
-  font-family: "Fraunces 9pt";
+  font-family: "Fraunces", serif;
   font-style: normal;
   font-weight: 900;
   font-size: 24px;
@@ -273,7 +272,7 @@ main {
   margin: 0 95px;
 }
 .section-2-card-number {
-  font-family: "Fraunces 9pt";
+  font-family: "Fraunces", serif;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
@@ -281,7 +280,7 @@ main {
   color: #fdd6ba;
 }
 .section-2-card-title {
-  font-family: "Fraunces 9pt";
+  font-family: "Fraunces", serif;
   font-style: normal;
   font-weight: 900;
   font-size: 32px;

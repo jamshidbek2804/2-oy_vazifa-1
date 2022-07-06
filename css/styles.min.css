@@ -12,6 +12,11 @@
 .line {
   position: absolute;
 }
+.footer-anchor,
+.header-nav-item,
+.hero-item {
+  text-decoration: none;
+}
 * {
   margin: 0;
   padding: 0;
@@ -47,7 +52,6 @@ header {
   display: inline-block;
 }
 .header-nav-item {
-  text-decoration: none;
   font-family: Barlow;
   font-style: normal;
   font-weight: 700;
@@ -65,7 +69,6 @@ header {
 }
 .header-nav-item:hover {
   color: #333d4b;
-  font-size: 13.5px;
 }
 .footer-nav-list-item-2,
 .header-nav-item-2 {
@@ -109,7 +112,6 @@ header {
   font-size: 18px;
   line-height: 25px;
   text-align: center;
-  text-decoration: none;
   padding: 16px 31px;
   background: #66d2cf;
   border-radius: 6px;
@@ -121,8 +123,8 @@ header {
   text-align: center;
 }
 .hero-item:hover {
-  color: #e100ff;
-  background-color: #adff2f;
+  color: #66d2cf;
+  background-color: rgba(168, 16, 206, 0.9);
 }
 .section-container {
   width: 1111px;
@@ -206,8 +208,11 @@ main {
 .main-card {
   width: 350px;
   height: 382px;
-  background: #0e8784;
+  background-color: #0e8784;
   border-radius: 8px;
+}
+.main-card:hover {
+  background-color: #83888f;
 }
 .main-card-img {
   padding-top: 72px;
