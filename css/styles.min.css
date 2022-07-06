@@ -22,7 +22,7 @@
   padding: 0;
 }
 body {
-  font-family: "Fraunces 9pt", serif;
+  font-family: Fraunces, serif;
 }
 header {
   width: 100%;
@@ -75,7 +75,7 @@ header {
   margin: 0 33px;
 }
 .hero-bg {
-  background-image: url(../assests/img/hero-bg.jpg);
+  background-image: url(../img/hero-bg.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   width: 1280px;
@@ -85,12 +85,12 @@ header {
   box-shadow: 0 1px 2px #000;
 }
 .hero-info {
-  max-width: 405px;
+  max-width: 470px;
   margin-left: 80px;
   padding-top: 100px;
 }
 .hero-title {
-  font-family: "Fraunces 9pt";
+  font-family: Fraunces, serif;
   font-weight: 900;
   font-size: 72px;
   line-height: 72px;
@@ -105,7 +105,7 @@ header {
 }
 .hero-item,
 .section-title {
-  font-family: "Fraunces 9pt";
+  font-family: Fraunces, serif;
   font-weight: 900;
 }
 .hero-item {
@@ -131,7 +131,7 @@ header {
   margin: 100px auto;
 }
 .section-bg {
-  background-image: url(../assests/img/section-bg-text.png);
+  background-image: url(../img/section-bg-text.png);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -177,7 +177,7 @@ main {
   margin: 0 50px;
 }
 .main-title {
-  font-family: "Fraunces 9pt";
+  font-family: Fraunces, serif;
   font-style: normal;
   font-weight: 900;
   font-size: 40px;
@@ -219,7 +219,7 @@ main {
   padding-left: 136px;
 }
 .main-card-title {
-  font-family: "Fraunces 9pt";
+  font-family: Fraunces, serif;
   font-style: normal;
   font-weight: 900;
   font-size: 24px;
@@ -249,7 +249,7 @@ main {
 .section-2-card-number,
 .section-2-card-title,
 .section-2-title {
-  font-family: "Fraunces 9pt";
+  font-family: Fraunces, serif;
   font-weight: 900;
   font-style: normal;
 }
